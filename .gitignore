@@ -1,0 +1,30 @@
+# Secrets and API keys
+.env
+*.env
+secrets.json
+config.local.py
+
+# Databases (may contain personal data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# Flask
+instance/
+
+# VS Code and Windows
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Power BI temp files
+*.pbix.bak
+.pbi/
